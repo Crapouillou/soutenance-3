@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Interios</title>
+    <!-- icones fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Lien vers les différents fichiers de style, bootstrap, -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hlgcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<!--Header-->
+<header id="bandeau" class="container-fluid">
+
+    <!--Titre-->
+    <div class="row text-center mb-4 mt-3 align-items-baseline">
+        <p class="col-sm-12 col-lg-4 text-capitalize text-right bol  ">magazine en ligne&nbsp;</p>
+        <a href="#" class="col-sm-12 col-lg-4 text-uppercase display-3 text-decoration-none">
+            <p id="interiors">interiors</p>
+        </a>
+        <p class="col-sm-12 col-lg-4 text-capitalize text-left ">&nbsp;nos meilleures idées</p>
+    </div>
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 w-100">
+
+        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100" id="navbarNavAltMarkup">
+            <div class="navbar-nav row w-100">
+                <a class="nav-item nav-link text-uppercase col-lg-2 col-lg-2 text-center" href="#">01.accueil</a>
+                <a class="nav-item nav-link text-uppercase col-lg-2 col-lg-2 text-center" href="#">02.a propos</a>
+                <a class="nav-item nav-link text-uppercase col-lg-2 col-lg-2 text-center" href="#">03.services</a>
+                <a class="nav-item nav-link text-uppercase col-lg-2 col-lg-2 text-center" href="#">04.galerie</a>
+                <a class="nav-item nav-link text-uppercase col-lg-2 col-lg-2 text-center" href="#">05.les news</a>
+                <a class="nav-item nav-link text-uppercase col-lg-2 col-lg-2 text-center" href="#">06.contact</a>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<body>
+    <main>
+
+
+        <!--Slider-->
+        <div id="carouselExampleIndicators" class="carousel slide mb-4   d-md-block d-none " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/ressources/images-interiors/images/chaises.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-lg-block text-uppercase row w-100 ">
+                        <p>pour trouver<span class="display-3 ">&nbsp;les meilleures&nbsp;</span> solutions ...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/ressources/images-interiors/images/chambre-blanche.jpg"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/ressources/images-interiors/images/chambre-rose.jpg"
+                        alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/ressources/images-interiors/images/cuisine.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/ressources/images-interiors/images/salon.jpg" alt="Fifth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--Titre entre slider et prochain article-->
+        <div class="d-flex justify-content-center pb-3">
+
+            <div class=" border-collection mt-2 w-100"></div>
+
+            <h3 class="text-nowrap text-center collection font-weight-bold">NOUVELLE COLLECTION</h3>
+
+            <div class=" border-collection mt-2 w-100"></div>
+
+        </div>
+
+
+
+        <!--section avec les 4 articles-->
+        <div class="container-fluid cartes mb-5 ">
+            <div class="row text-center mx-2 align-self-center">
+                <div class="col-lg-3 cartes col-sm-6 mt-sm-3">
+                    <div class="card bg-default">
+                        <h2 class="card-header text-uppercase">
+                            chambres
+                        </h2>
+                        <div class="card-body px-1 ">
+                            <img alt="chambres preview"
+                                src="/ressources/images-interiors/images/vignette-chambre.jpg" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 cartes col-sm-6 mt-sm-3">
+                    <div class="card">
+                        <h2 class="card-header text-uppercase">
+                            cuisines
+                        </h2>
+                        <div class="card-body px-1">
+                            <img alt="cuisines preview"
+                                src="/ressources/images-interiors/images/vignette-cuisine.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 cartes col-sm-6 mt-sm-3">
+                    <div class="card">
+                        <h2 class="card-header text-uppercase">
+                            salons
+                        </h2>
+                        <div class="card-body px-1">
+                            <img alt="salon preview" src="/ressources/images-interiors/images/vignette-fauteuil.jpg" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 cartes col-sm-6 mt-sm-3">
+                    <div class="card">
+                        <h2 class="card-header text-uppercase">
+                            bains
+                        </h2>
+                        <div class="card-body px-1">
+                            <img alt="salle de bains preview"
+                                src="/ressources/images-interiors/images/vignette-sallebain.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!--Partie du travail sur le DOM-->
+        <div class="row mt-5" id="blocduBas">
+            <div class="col-lg-4 col-sm-12">
+                <div class="d-flex align-items-center mb-3 ">
+                    <div class="border-derniere-section  w-50"></div>
+                    <h3 class=" text-nowrap text-center">Dernières News</h3>
+                    <div class="border-derniere-section  w-50"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="jumbotron col-sm-5 col-lg-12" id="premierArticle">
+
+                        <!-- Premier article -->
+                        <p id="dateArticle1"></p>
+                        <h4 id="premierTitre1" class="font-weight-bolder"></h4>
+                        <p id="contenuArticle1"></p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light" data-toggle="modal"
+                            data-target="#exampleModalCenter">
+                            + d'Infos
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="titreModal"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <p class="modal-body" id="contenuModal1" class="mb-5">
+                                    </p>
+                                    <img src="" alt="" id="premierImage" class="w-100   justify-content-center">
+                                    <div id="nomAuteur1"></div>
+                                    
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="jumbotron col-sm-5  col-lg-12 ml-3 " id="deuxiemeArticle">
+
+                        <!-- deuxième article -->
+                        <p id="dateArticle2"></p>
+                        <h4 id="premierTitre2" class="font-weight-bolder"></h4>
+                        <p id="contenuArticle2"></p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light" data-toggle="modal"
+                            data-target="#exampleModalCenter2">
+                            + d'Infos
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="titreModal2"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <p class="modal-body" id="contenuModal2" class="mb-5">
+                                    </p>
+                                    <img src="" alt="" id="deuxiemeImage" class="w-100   justify-content-center">
+                                    <div id="nomAuteur2"></div>
+                                    
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!--Article du mileu-->
+            <div class="col-lg-5 mt-lg-5 col-sm-6 pl-sm-5">
+                <h5 class="font-weight-bold ">
+
+                </h5><br>
+                <p class="font-weight-bold ">
+                    Découvrez notre sélection de meubles contemporains et de mobilier moderne et design pour aménager
+                    votre intérieur. Plus de 10,000 objets deco et design en vente.
+                </p><br>
+                <p>
+                    > Préparer vos cadeaux et vous faire plaisir avec des milliers de produits disponibles et livrés
+                    chez vous en 24/48h !
+                </p><br>
+                <p>
+                    > Noël 2021 est déjà là! Célébrez un Noël design avec notre sélection d'idées de cadeaux originales
+                    et insolites. Découvrez notre sélection d'objets ludiques et insolites et faites le plein d'idées !
+                </p><br>
+                <a href="#" class="btn btn-outline-secondary border-dark mb-5">+ D'INFOS</a>
+
+            </div>
+
+
+
+
+            <!--Partie de droite -->
+            <section class=" text-center col-lg-3 col-sm-6 ">
+                
+                
+                <!--Image et bouton  cliquer ici-->
+                <div class="okk ">
+                    <p class="text-left text-uppercase font-weight-bold ml-2" id="reservezNotreCatalogue">reservez <br>notre<br> catalogue</p>
+                    
+                    <!-- <img src="/ressources/images-interiors/images/fond-book.png" class="book" alt=""> -->
+
+                    <button  type="button" id="boutonCliquerici" class="btn btn-outline-light position-relative font-weight-light " data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Cliquer <br>ICI</button>
+                    
+                    <div class="modal fade justify-content-start row" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Réserver son catalogue</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body justify-content-start">
+                            <form class="text-left">
+                              
+                                <label for="recipient-name" class="col-form-label d-flex justify-content-start ">Adresse Email</label>
+                                <input type="text" class="form-control mt-3" id="recipient-name" placeholder="Votre email">
+                             
+                              
+                                <label class="form-check-label pl-4 mt-3">
+                                  <input type="checkbox" class="form-check-input" value="">J'accepte de recevoir le catalogue
+                                </label>
+                              
+                            </form>
+                            <button type="button" class="btn btn-success mt-3 d-flex justify-content-start">OK</button>
+                          </div>
+                          <div class="modal-footer">
+                            
+                            <button type="button" class="btn btn-danger"data-dismiss="modal" aria-label="Close">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+                <!--Liste "Références"-->
+                <h3 class=" ">Références</h3>
+                <p class="mt-3"><a href="#" class="listefin">Expositions</a></p>
+                <p><a href="#" class="listefin">Hôtels</a></p>
+                <p><a href="#" class="listefin">Restaurants et Bars</a></p>
+                <p><a href="#" class="listefin">Revente</a></p>
+                <p><a href="#" class="listefin">Salon et spa</a></p>
+
+            </section>
+        </div>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="container d-flex justify-content-between mt-2">
+
+        <div class="icons text">
+            <i class="fa-brands fa-twitter text-primary"></i>
+            <i class="fa-brands fa-facebook text-primary"></i>
+
+            <i class="fa-brands fa-pinterest text-primary"></i>
+        </div>
+
+        <div class="copyrigth justify-content-between ">
+            <p> © GBS - INTERIORS 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
