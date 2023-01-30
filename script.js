@@ -83,6 +83,7 @@
 
 
 //     });
+$(document).ready(function() {
 function laFactorisation() {
     let articles = [
       {
@@ -134,6 +135,6 @@ function laFactorisation() {
     });
   }
   
-  $(document).ready(function() {
-    lafeactorisation();
+  
+    
   });
